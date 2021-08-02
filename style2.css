@@ -1,0 +1,41 @@
+body
+{
+    line-height: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    color: rgb(54, 54, 54);
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.relative{
+    border: 1px solid black;
+    height: 220px;
+    width: 700px;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+}
+
+.fixed{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.absolute{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
